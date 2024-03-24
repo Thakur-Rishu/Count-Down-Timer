@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.mainframe {
+    margin: auto;
+    padding: 20px;
+    /* width: fit-content; */
+    border: 2px solid rgb(228, 80, 105);
+    border-radius: 20px;
+    background-color: rgb(28, 31, 49);
+    overflow: hidden;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.input-fields {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.input-fields div {
+    margin-bottom: 10px;
+}
+
+input {
+    font-size: 20px;
+    border: 2px solid rgb(228, 80, 105);
+    width: 100%;
+    padding: 5px;
+}
+
+label {
+    font-size: 20px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border-bottom: 1px solid rgb(228, 80, 105);
+    border-radius: 10px;
+    padding-bottom: 3px;
+}
+
+button {
+    font-size: 20px;
+    color: white;
+    background-color: rgb(228, 80, 105);
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url('timer.jpeg');
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
